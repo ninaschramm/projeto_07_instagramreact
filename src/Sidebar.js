@@ -1,17 +1,13 @@
 import Sugestao from './Sugestao'
+import MyUser from './MyUser.js'
 
 const sugestoes = ["bad.vibes.memes", "chibirdart", "razoesparaacreditar", "adorable_animals", "smallcutecats"]
 
 export default function Sidebar() {
     return (
         <div class="sidebar">
-          <div class="usuario">
-            <img src="assets/img/catanacomics.svg" />
-            <div class="texto">
-              <strong>catanacomics</strong>
-              Catana
-            </div>
-          </div>
+            <MyUser user="catanacomics" image="assets/img/catanacomics.svg" name="Catana" />
+          
 
           <div class="sugestoes">
             <div class="titulo">
